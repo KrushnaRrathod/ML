@@ -4,7 +4,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn import metrics
 
 # Specify the file path where the CSV file is located
-csv_file_path = r'C:\Users\ratho\Downloads\customer_churn.csv'
+csv_file_path = r'C:\Users\rathod\Downloads\customer_churn.csv'
 
 # Load the dataset from the CSV file
 df = pd.read_csv(csv_file_path)
