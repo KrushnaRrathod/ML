@@ -4,7 +4,7 @@ from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 
 # Load the training dataset from a CSV file
-df = pd.read_csv(r'C:\Users\manan\OneDrive\Desktop\6 sem degree\ML\large_dataset.csv')
+df = pd.read_csv(r'C:\Users\rathod\Downloads\customer_churn.csv')
 
 # Extract features from the dataset
 X = df.iloc[:, [0, 1]].values  # Assuming the dataset has two features for simplicity
